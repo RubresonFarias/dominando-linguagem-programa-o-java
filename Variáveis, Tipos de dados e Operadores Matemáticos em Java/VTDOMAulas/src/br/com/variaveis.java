@@ -1,10 +1,13 @@
-public class Main {
+package br.com;
+
+public class variaveis {
+
     public static void main(String[] args) {
 
         int i;
         //int i;
         int I;
-       // int 1a;
+        // int 1a;
         int _1a;
         int $aq;
 
@@ -40,6 +43,6 @@ public class Main {
         System.out.println(NUMERO_TENTATIVAS);
         System.out.println(qtdProd);
 
-
     }
+
 }
