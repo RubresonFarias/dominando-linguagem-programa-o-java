@@ -6,9 +6,11 @@ public class AtividadeMetodos {
 
     public static void main(String[] args) {
 
-        double a, b;
-
         Scanner entrada = new Scanner(System.in);
+
+        //Calculadora
+
+        double a, b;
 
         System.out.println("Calculadora");
         System.out.println("Informe o primeiro número: ");
@@ -21,6 +23,8 @@ public class AtividadeMetodos {
         Calculadora.multiplicacao(a, b);
         Calculadora.divisao(a, b);
 
+        //Mensagem
+
         int hora;
 
         System.out.println("Mensagem");
@@ -28,6 +32,8 @@ public class AtividadeMetodos {
         hora = entrada.nextInt();
 
         Mensagem.obterMensagem(hora);
+
+        //Emprestimo
 
         double valor;
         int parcelas;
