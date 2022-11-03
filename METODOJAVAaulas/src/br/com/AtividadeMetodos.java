@@ -29,6 +29,17 @@ public class AtividadeMetodos {
 
         Mensagem.obterMensagem(hora);
 
+        double valor;
+        int parcelas;
+
+        System.out.println("Exercício empréstimo");
+        System.out.println("Informe o valor do empréstimo:");
+        valor = entrada.nextDouble();
+        System.out.println("Informe o valor das parcelas:");
+        parcelas = entrada.nextInt();
+
+        Emprestimo.calcular(valor, Emprestimo.getParcelas(parcelas));
+
     }
 
 }
