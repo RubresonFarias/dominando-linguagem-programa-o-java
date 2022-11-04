@@ -15,7 +15,7 @@ public class Quadrilatero {
     }
 
     public static void area(float diagonal1, float diagonal2) {
-        System.out.println("Área do retângulo:" + ((diagonal1*diagonal2)/2));
+        System.out.println("Área do losango:" + ((diagonal1*diagonal2)/2));
     }
 
 }
