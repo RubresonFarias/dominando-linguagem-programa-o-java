@@ -2,7 +2,7 @@ package br.com;
 
 import java.util.Scanner;
 
-public class AtividadeMetodos {
+public class Main1 {
 
     public static void main(String[] args) {
 
